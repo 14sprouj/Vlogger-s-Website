@@ -1,5 +1,13 @@
-link.hover {style:underline;
-	
+link.hover {
+style:underline;	
+}
+
+body.background {
+background-color:#a3e0a4;
+}
+
+.near-white {
+background-color:#efefef
 }
 
 img.app {
@@ -7,8 +15,13 @@ img.app {
 	height: 70px;
 }
 
+h3 {
+color:#149d00;
+}
+
 h5 {
 	font: 12px;
+	color:#000080;
 }
 
 body,h1,h2,h3,h4,h5 {
