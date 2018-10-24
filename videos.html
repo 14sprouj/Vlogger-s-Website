@@ -3,7 +3,7 @@
 <title>My Videos | Gamer007 | The official website of Gamer007</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3schools.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link href="https://fonts.googleapis.com/" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="MS Coursework.css">
@@ -12,8 +12,8 @@
 
 <body class="background" onload="load();">
 <div class="w3-content" style="max-width:1400px">
-<section class="sitetitle">
-  <h1>Gamer007</h1>
+<section class="light">
+<h1 class="gradient1">Gamer007</h1>
 </section>
 <header class="w3-container w3-center w3-padding-32"> 
 <p>Welcome to the official website of Gamer007</p>
@@ -32,16 +32,12 @@
 </div>
 
 <div class="w3-container">
-<p>Hey there. So this page shows preview of every video I've done. The full videos are on my YouTube Channel. This page simply showcases all my videos.</p>
+<p>Hey there. So this page shows preview of every video I've done. The full videos are on <a href="www.youtube.com.html">my YouTube Channel</a></p>
 
 </div>
 
 <div class="w3-row">
-<<<<<<< HEAD
-<p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">1</span></span></p>
-=======
 <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">1</span></span></p>
->>>>>>> ef99319f44b0801b5322552059ac84603a378f95
 </div><br>
 </div>
 </div>
@@ -53,12 +49,7 @@
 </div>
 
 <div class="w3-container">
-<p>Hey guys. So my latest video is now on YouTube and Twitch. In this video we're doing something different, explore Crystal Palace Park. It is quite a popular park in the area for multiple reasons. It has:
-<ulist>
-<list>A maze</list>
-<list></list>
-</ulist>
-To discover what else, watch the short video below.</p>
+<p>Hey guys. So my latest video is now online. In this video we're doing something different, explore Crystal Palace Park. It is quite a popular park in the area. To discover why, watch the short video below.</p>
 <p><sub>BTW full vid is on YT</sub></p>
 <div id="Video">
 <video height="300" width="600" controls id="myVideo" onended="HideVideo()">
@@ -73,13 +64,7 @@ Sorry, something's gone wrong. Try refreshing the page.
 </div>
 
 <div class="w3-row">
-<<<<<<< HEAD
-<p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">3</span></span></p>
-=======
-
 <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">3</span></span></p>
-
->>>>>>> ef99319f44b0801b5322552059ac84603a378f95
 </div><br>
 </div>
 </div>
@@ -92,12 +77,10 @@ Sorry, something's gone wrong. Try refreshing the page.
 function load() {
 document.getElementById("behind").style.visibility = "hidden";
 }
-
 function HideVideo() {
     document.getElementById("myVideo").style.display = "none";
 	document.getElementById("behind").style.visibility = "visible";
 }
-
 function RestartVideo() {
     document.getElementById("myVideo").style.display = "block";
 	myVideo.currentTime = 0;
