@@ -1,0 +1,62 @@
+link.hover {
+style:underline;	
+}
+
+body.background {
+background-color:#a3e0a4;
+}
+
+.near-white {
+background-color:#efefef
+}
+
+img.app {
+	border-radius: 25%;
+	height: 70px;
+}
+
+h3 {
+color:#149d00;
+}
+
+h5 {
+	font: 12px;
+	color:#000080;
+}
+
+body,h1,h2,h3,h4,h5 {
+	font-family: "Arial", sans-serif;
+}
+
+.sitetitle {
+background-color:#3F729B;
+color:FFFFFF;
+text-align:center;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(Lato-Regular.ttf);
+}
+p , body {
+	font-family: "Lato";
+	font-size: 12pt;
+}
+
+li.nav {
+font-weight: bold;
+font-family: Arial;
+font-size: 13pt;
+}
+
+span.blue80red20 {
+  background: -webkit-linear-gradient(left, blue 70%, orange 30%);
+  background: -moz-linear-gradient(left, blue 70%, orange 30%);
+  background: -o-linear-gradient(left, blue 70%, orange 30%);
+  background: linear-gradient(left, blue 70%, orange 30);
+  color:#ff0000;
+}
+
+span.w3-tag {
+	font-weight:bold;
+}

@@ -1,12 +1,23 @@
-.ulist, .ulist ulist {
+list {
   list-style: none;
   text-decoration: none;
+  display:list-item;
+  list-style-type: disc;
 }
 
-.ulist list.h:before {
+list.h:before {
   content: "\2713";
-} /*Site History lists */
+}
 
+ulist {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
 
 ul {
     list-style-type: none;
